@@ -1,0 +1,48 @@
+
+@media only screen and (max-width:1366px ){
+    .services-navigation ul li{
+        width:70%;
+    }
+}
+@media only screen and (max-width:1024px ){
+    .card{
+        width:100vw;
+    }
+    .store-row{
+        flex-direction: column;
+    }
+    .sCard{
+        width: 100vw !important;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .store-text-container{
+        width:100%;
+    }
+    .about-head-main{
+        width:100% !important;
+    }
+    .about-bottom{
+        flex-direction: column-reverse;
+    }
+    .about-foot-text-container{
+        width: 100% !important;
+        padding:0px 10px;  
+    }
+    /* .footer-bottom{
+        flex-direction: column;
+    } */
+    .about-foot-img-container{
+        width:100%;
+    }
+    .grapes{
+        width:100% !important;
+    }
+    .footer-description{
+        width:100% !important;
+    }
+    .description{
+        width: 100% !important;
+    }
+}

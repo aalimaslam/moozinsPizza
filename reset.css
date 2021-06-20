@@ -1,0 +1,24 @@
+*{margin:0;padding:0;box-sizing: border-box;font-family: 'Recursive', sans-serif;}
+li{list-style: none;}
+:root{--green:#a9d234;--teal:#5acda6;--orange:#e4b477;--pink:#f69dad;}
+body{overflow-x: hidden;}
+.btn{
+    outline: none;
+    border:none; padding:10px 30px;
+    background:var(--green);
+    cursor: pointer;
+    color:white;
+}
+.btn:hover{
+    background:#6fc005;
+}.heading{
+    padding:10px;
+    font-family:cursive;
+    color:var(--green);
+}.sub-heading{
+    padding: 0px 10px;
+}
+.description{
+    color:#444;
+    padding:10px 5px;
+}
