@@ -22,3 +22,13 @@ body{overflow-x: hidden;}
     color:#444;
     padding:10px 5px;
 }
+a{
+    color:#333;
+    text-decoration:none;
+}
+a:visited{
+    color:#777;
+}
+a:hover{
+    color:black;
+}
